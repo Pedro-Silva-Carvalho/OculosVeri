@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Veri — Óculos Inteligentes com IA</title>
+    <meta name="description" content="Veri é um projeto de óculos inteligente com IA para ampliar a autonomia de pessoas com deficiência visual. Reconhece ambientes, obstáculos, rostos e objetos, descrevendo o mundo por voz natural e interações contextuais." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Pular para o conteúdo</a>
+
+    <div class="announcement" role="note">
+      🚀 Inscrições para early testers — receba prioridade no lançamento.
+      <a href="#contato" class="ann-link">Quero participar</a>
+    </div>
+
+    <header class="site-header" role="banner">
+      <div class="container header-inner">
+        <a class="logo" href="#" aria-label="Página inicial Veri">
+          <span class="logo-mark" aria-hidden="true">V</span>
+          <span class="logo-text">Veri</span>
+        </a>
+        <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">
+          <span class="visually-hidden">Abrir menu</span>
+          ☰
+        </button>
+        <nav id="site-nav" class="site-nav" role="navigation" aria-label="Principal">
+          <ul>
+            <li><a href="#produto">Produto</a></li>
+            <li><a href="#diferenciais">Diferenciais</a></li>
+            <li><a href="#especificacoes">Especificações</a></li>
+            <li><a href="#equipe">Equipe</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#contato" class="btn btn--small">Quero ser avisado</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- Hero -->
+      <section id="produto" class="section hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <h1>
+              Autonomia guiada por IA<br />
+              em óculos que veem por você
+            </h1>
+            <p class="lead">
+              Veri é um projeto de óculos inteligente com Inteligência Artificial desenvolvido para ampliar a autonomia de pessoas com deficiência visual. Equipado com sensores de profundidade, microcâmeras discretas e processamento em tempo real, reconhece ambientes, obstáculos, rostos e objetos, descrevendo o mundo ao redor por meio de voz natural e interações contextuais.
+            </p>
+            <div class="cta">
+              <a class="btn btn--primary" href="#contato">Garanta prioridade no lançamento</a>
+              <a class="btn btn--ghost" href="#diferenciais">Ver como funciona</a>
+            </div>
+            <ul class="hero-points" aria-label="Recursos em destaque">
+              <li>Voz natural e contexto em tempo real</li>
+              <li>Reconhecimento de obstáculos, rostos e objetos</li>
+              <li>Sensores de profundidade e microcâmeras discretas</li>
+            </ul>
+          </div>
+          <div class="hero-media">
+            <figure>
+              <img class="device" src="oc.jpg" alt="Óculos Veri com módulo lateral contendo ESP32, câmera e bateria, e fones acoplados nas hastes" />
+              <figcaption>Protótipo com câmera discreta e fones embutidos.</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- Especificações -->
+      <section id="especificacoes" class="section specs" aria-label="Especificações técnicas">
+        <div class="container specs-grid">
+          <div>
+            <h2>Especificações essenciais</h2>
+            <p class="muted">Projeto focado em desempenho no mundo real e conforto.</p>
+            <ul class="spec-list" aria-label="Lista de especificações">
+              <li><span class="dot" aria-hidden="true"></span> Câmera discreta com processamento local</li>
+              <li><span class="dot" aria-hidden="true"></span> Sensores de profundidade para detecção de obstáculos</li>
+              <li><span class="dot" aria-hidden="true"></span> Retorno por voz natural nas hastes</li>
+              <li><span class="dot" aria-hidden="true"></span> Conectividade Bluetooth (Android/iOS)</li>
+              <li><span class="dot" aria-hidden="true"></span> Bateria projetada para um dia típico de uso</li>
+              <li><span class="dot" aria-hidden="true"></span> Atualizações de modelos otimizados no app</li>
+            </ul>
+          </div>
+          <div class="spec-card">
+            <h3>Pronto para o cotidiano</h3>
+            <p>Privacidade preservada por processamento no dispositivo, latência baixa e respostas confiáveis, mesmo em locais sem internet.</p>
+            <ul class="chip-list">
+              <li>IA contextual</li>
+              <li>Offline-first</li>
+              <li>Conforto</li>
+              <li>Acessibilidade</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Diferenciais -->
+      <section id="diferenciais" class="section features" aria-label="Diferenciais do Veri">
+        <div class="container">
+          <h2>Diferenciais que importam no dia a dia</h2>
+          <div class="features-grid">
+            <article class="feature">
+              <h3>IA contextual</h3>
+              <p>Descrições úteis, diretas e personalizadas ao ambiente, sem sobrecarga de informações.</p>
+            </article>
+            <article class="feature">
+              <h3>Tempo real</h3>
+              <p>Processamento no dispositivo para respostas rápidas e confiáveis, mesmo offline.</p>
+            </article>
+            <article class="feature">
+              <h3>Discreto e confortável</h3>
+              <p>Microcâmeras e fones nas hastes, mantendo o visual natural e leve.</p>
+            </article>
+            <article class="feature">
+              <h3>Conectividade</h3>
+              <p>Integração com Android e iOS para configuração, atualizações e métricas de uso.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section id="faq" class="section faq" aria-label="Perguntas frequentes">
+        <div class="container">
+          <h2>Perguntas frequentes</h2>
+          <div class="faq-list">
+            <details>
+              <summary>Quando o Veri estará disponível?</summary>
+              <p>Estamos em fase de testes com early testers. Inscreva-se para receber prioridade e notícias do roadmap.</p>
+            </details>
+            <details>
+              <summary>Funciona sem internet?</summary>
+              <p>Sim. O reconhecimento principal acontece no dispositivo. A conexão é usada para configuração e atualizações.</p>
+            </details>
+            <details>
+              <summary>Como o áudio é reproduzido?</summary>
+              <p>Fones discretos nas hastes emitem voz natural com foco em clareza e privacidade.</p>
+            </details>
+            <details>
+              <summary>Compatibilidade com Android e iOS</summary>
+              <p>Aplicativos dedicados permitem configurar o dispositivo, atualizar modelos e acompanhar métricas de uso.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <!-- Como funciona -->
+      <section class="section how" aria-label="Como funciona">
+        <div class="container how-grid">
+          <div class="how-card">
+            <span class="tag">Sensores</span>
+            <h3>Percebe o ambiente</h3>
+            <p>Sensores de profundidade e câmera capturam a cena preservando privacidade por processamento local.</p>
+          </div>
+          <div class="how-card">
+            <span class="tag">IA</span>
+            <h3>Entende o contexto</h3>
+            <p>Modelos otimizados detectam obstáculos, rostos e objetos, priorizando o que é relevante.</p>
+          </div>
+          <div class="how-card">
+            <span class="tag">Voz</span>
+            <h3>Fala naturalmente</h3>
+            <p>Retorno por voz clara com controles simples no toque ou por comando.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Equipe -->
+      <section id="equipe" class="section team" aria-label="Equipe Veri">
+        <div class="container">
+          <div class="team-header">
+            <h2>Quem está construindo o Veri</h2>
+            <p>Time multidisciplinar focado em autonomia e experiência real.</p>
+          </div>
+          <div class="team-grid" role="list" aria-live="polite">
+              <article class="team-card" role="listitem">
+                <div class="role">PO</div>
+                <h3>Thádio</h3>
+                <p>Prioriza o backlog, valida incremento e mantém visão de produto alinhada aos objetivos de autonomia do usuário final.</p>
+              </article>
+              <article class="team-card" role="listitem">
+                <div class="role">Scrum Master</div>
+                <h3>Suel Marques Albuquerque</h3>
+                <p>Facilita cerimônias, remove impedimentos e mantém dashboards atualizados para transparência dos indicadores da sprint.</p>
+              </article>
+              <article class="team-card" role="listitem">
+                <div class="role">Dev Android</div>
+                <h3>Tiago Damião dos Santos</h3>
+                <p>Integra Bluetooth SPP no app Android, processa inferência offline e entrega UI responsiva para ROI e métricas.</p>
+              </article>
+              <article class="team-card" role="listitem">
+                <div class="role">Dev iOS</div>
+                <h3>Thiago Roberto Soares Martins</h3>
+                <p>Planeja integração BLE e adapta pipeline para Core ML, garantindo experiência equivalente no ecossistema iOS.</p>
+              </article>
+              <article class="team-card" role="listitem">
+                <div class="role">Branding</div>
+                <h3>Michael Douglas Figueiroa</h3>
+                <p>Valida o nome “Veri”, cria logomarca e sincroniza identidade com os materiais de apresentação e site.</p>
+              </article>
+              <article class="team-card" role="listitem">
+                <div class="role">Site</div>
+                <h3>Pedro Silva Carvalho</h3>
+                <p>Constrói site comercial alinhado ao novo nome e apresenta equipe, produto e diferenciais de forma envolvente.</p>
+              </article>
+              <article class="team-card" role="listitem">
+                <div class="role">Dashboard</div>
+                <h3>Suel Marques Albuquerque</h3>
+                <p>Entrega dashboard visual com BurnDown Chart e métricas, apoiando acompanhamento diário e Review.</p>
+              </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA final / Contato -->
+      <section id="contato" class="section cta-final" aria-label="Prioridade no lançamento">
+        <div class="container cta-final-inner">
+          <div>
+            <h2>Receba novidades e prioridade no lançamento</h2>
+            <p>Entre para a lista e seja avisado primeiro.</p>
+          </div>
+          <form class="cta-form" onsubmit="return handleLead(event)">
+            <div class="field">
+              <label for="email">Seu e-mail</label>
+              <input id="email" name="email" type="email" inputmode="email" placeholder="seu@email.com" aria-describedby="lead-feedback" required />
+            </div>
+            <button class="btn btn--primary" type="submit" aria-describedby="lead-feedback">Quero ser avisado</button>
+          </form>
+          <div id="lead-feedback" class="lead-feedback" role="status" aria-live="polite"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" role="contentinfo">
+      <div class="container footer-grid">
+        <div>
+          <div class="logo footer-logo"><span class="logo-mark">V</span><span class="logo-text">Veri</span></div>
+          <p class="footnote">Tecnologia pensada para autonomia e acessibilidade no cotidiano.</p>
+        </div>
+        <nav aria-label="Mapa do site">
+          <h3 class="footer-title">Navegação</h3>
+          <ul class="footer-links">
+            <li><a href="#produto">Produto</a></li>
+            <li><a href="#diferenciais">Diferenciais</a></li>
+            <li><a href="#especificacoes">Especificações</a></li>
+            <li><a href="#equipe">Equipe</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+        <div class="footer-contact">
+          <h3 class="footer-title">Contato</h3>
+          <p class="footnote">Preferimos e‑mail para suporte e parcerias.</p>
+          <a class="btn btn--ghost" href="mailto:contato@veri.ai" aria-label="Enviar e-mail para contato arroba veri ponto ai">contato@veri.ai</a>
+        </div>
+        <div class="footer-social">
+          <h3 class="footer-title">Siga a Veri</h3>
+          <ul class="footer-links">
+            <li><a href="#" rel="noopener">Instagram</a></li>
+            <li><a href="#" rel="noopener">LinkedIn</a></li>
+            <li><a href="#" rel="noopener">YouTube</a></li>
+          </ul>
+          <h3 class="footer-title" style="margin-top:12px">Legal</h3>
+          <ul class="footer-links">
+            <li><a href="#" rel="noopener">Privacidade</a></li>
+            <li><a href="#" rel="noopener">Termos</a></li>
+            <li><a href="#" rel="noopener">Acessibilidade</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container footer-bottom-inner">
+          <div>© <span id="year"></span> Veri</div>
+          <div class="footnote">Feito com foco em acessibilidade. PT‑BR.</div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+  </html>
